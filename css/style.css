@@ -1,0 +1,21 @@
+@keyframes Bob {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: -864px 0;
+  }
+}
+
+div {
+	animation: Bob 1s steps(12);
+  animation: Bob 2s steps(24);
+  animation: Bob 3s steps(36);
+  animation: Bob 4s steps(48);
+  animation: Bob 5s steps(60);
+
+    width: 72px;
+    height: 72px;
+    background-image: url('../img/elizanelsprite.png');
+}
