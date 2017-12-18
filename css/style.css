@@ -1,4 +1,17 @@
-@keyframes Bob {
+html,
+body,
+div {
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  width: 72px;
+  height: 72px;
+  background: #fff url('../img/elizanelsprite.png') no-repeat 0 0;
+}
+
+@keyframes {
   0% {
     background-position: 0 0;
   }
@@ -7,14 +20,91 @@
     background-position: -864px 0;
   }
 }
+@keyframes first-strip {
+  0% {
+    background-position: 0 0;
+  }
 
-div {
-	animation: Bob 1s steps(12);
-  animation: Bob 2s steps(24);
-  animation: Bob 3s steps(36);
-  animation: Bob 4s steps(48);
-  animation: Bob 5s steps(60);
+  100% {
+    background-position: -864px -72px;
+  }
+}
+@keyframes second-strip{
+  0% {
+    background-position: 0 0;
+  }
+100% {
+  background-position: -864px -144px;
+}
 
+}
+@keyframes third-strip{
+  0% {
+    background-position: 0 0;
+  }
+100% {
+  background-position: -864px -216px;
+}
+
+}
+@keyframes fourth-strip{
+  0% {
+    background-position: 0 0;
+  }
+100% {
+  background-position: -864px -288px;
+}
+
+}
+@keyframes fifth-strip{
+  0% {
+    background-position: 0 0;
+  }
+100% {
+  background-position: -864px -360px;
+}
+
+}
+
+
+/*div {
+	animation: first-strip  1s steps(12);
+  animation: second-strip 2s steps(12);
+  animation: thrid-strip  3s steps(12);
+  animation: fourth-strip 4s steps(12);
+  animation: fifth-strip  5s steps(12);
+
+    width: 72px;
+    height: 72px;
+    background-image: url('../img/elizanelsprite.png');
+}*/
+
+.sprite1 {
+	animation: first-strip  1s steps(12);
+    width: 72px;
+    height: 72px;
+    background-image: url('../img/elizanelsprite.png');
+}
+.sprite2 {
+	animation: second-strip 2s steps(12);
+    width: 72px;
+    height: 72px;
+    background-image: url('../img/elizanelsprite.png');
+}
+.sprite3 {
+	animation: thrid-strip  3s steps(12);
+    width: 72px;
+    height: 72px;
+    background-image: url('../img/elizanelsprite.png');
+}
+.sprite4 {
+	animation: fourth-strip 4s steps(12);
+    width: 72px;
+    height: 72px;
+    background-image: url('../img/elizanelsprite.png');
+}
+.sprite5 {
+	animation: fifth-strip  5s steps(12);
     width: 72px;
     height: 72px;
     background-image: url('../img/elizanelsprite.png');
