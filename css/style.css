@@ -15,7 +15,7 @@
     }
 
     100% {
-        background-position: -864px 72px;
+        background-position: -864px 144px;
     }
 }
 
@@ -25,21 +25,21 @@
     }
 
     100% {
-        background-position: -864px 144px;
+        background-position: -864px 72px;
     }
 }
 
-@keyframes fourth-strip {
+@keyframes fifth-strip {
     0% {
-        background-position: 0 144px; 
+        background-position: 0 216px; 
     }
     100%{
         background-position:-864px 216px; 
     }
 }
-@keyframes fifth-strip {
+@keyframes fourth-strip {
     0% {
-        background-position: 0 216px; 
+        background-position: 0 288px; 
     }
     100%{
         background-position:-864px 288px; 
@@ -48,12 +48,13 @@
 
 
 div {
-    animation: first-strip 1s steps(12) 0s none,
-        second-strip 1s steps(12) 1s none,
-        third-strip 1s steps(12) 2s none,
-        fourth-strip 1s steps(12) 3s none, 
-        fifth-strip 1s steps(12) 4s none; 
+    animation: first-strip 2s steps(12) 0s none,
+        second-strip 2s steps(12) 2s none,
+        third-strip 2s steps(12) 4s none,
+        fourth-strip 2s steps(12) 6s none, 
+        fifth-strip 2s steps(12) 8s none; 
     width: 72px;
     height: 72px;
     background-image: url('../img/sprite.png');
+    border: 1px solid black
 }
