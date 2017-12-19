@@ -11,7 +11,7 @@ html{
          }
        }
        div{
-           animation: first-strip 1s steps(6);
+           animation: first-strip 0.5s steps(6);
            width: 600px;
            height: 600px;
            background-image: url('../img/banana-peel.png');
@@ -26,7 +26,7 @@ html{
     }
   }
      div{
-      animation: "second-strip" 1s steps(6);
+      animation: "second-strip" 0.5s steps(6);
       width: 600px;
       height: 600px;
       background-image: url('../img/banana-peel.png');
@@ -41,7 +41,7 @@ html{
        }
      }
      div{
-       animation: third-strip  steps(6);
+       animation: third-strip 0.5 steps(6);
        width: 600px;
        height: 600px;
        background-image: url('../img/banana-peel.png');
@@ -56,7 +56,7 @@ html{
        }
      }
      div{
-       animation: fourth-strip 1s steps(6);
+       animation: fourth-strip 0.5s steps(6);
        width: 600px;
        height: 600px;
        background-image: url('../img/banana-peel.png');
@@ -71,7 +71,7 @@ html{
      }
 
       div{
-        animation: fifth-strip 1s steps(6);
+        animation: fifth-strip 0.5s steps(6);
         width: 600px;
         height: 600px;
         background-image: url('../img/banana-peel.png');
@@ -85,7 +85,7 @@ html{
    }
  }
      div{
-       animation: sixth-strip 1s steps(6);
+       animation: sixth-strip 0.5s steps(6);
        width: 600px;
        height: 600px;
        background-image: url('../img/banana-peel.png');
@@ -99,7 +99,7 @@ html{
            }
          }
       div{
-        animation: seventh-strip 1s steps(6);
+        animation: seventh-strip 0.5s steps(6);
         width: 600px;
         height: 600px;
         background-image: url('../img/banana-peel.png');
@@ -113,7 +113,7 @@ html{
         }
   }
          div{
-        animation: eighth-strip 1s steps(6);
+        animation: eighth-strip 0.5s steps(6);
         width: 600px;
         height: 600px;
         background-image: url('../img/banana-peel.png');
@@ -127,7 +127,7 @@ html{
             }
           }
           div{
-            animation: ninth-strip 1s steps(6);
+            animation: ninth-strip 0.5s steps(6);
             width: 600px;
             height: 600px;
             background-image: url('../img/banana-peel.png');
@@ -141,7 +141,7 @@ html{
             }
           }
           div{
-            animation: tenth-strip 1s steps(6);
+            animation: tenth-strip 0.5s steps(6);
             width: 600px;
             height: 600px;
             background-image: url('../img/banana-peel.png');
