@@ -1,80 +1,38 @@
 @keyframes first-strip {
     0% {
-      background-position: 0 0;
+        background-position: 0 0;
     }
-    100% {
-       background-position: -864px -72px;
-   }
-  }
 
-  div{
-    animation: first-strip 1s steps(12);
+    100% {
+        background-position: -864px 0;
+    }
+}
+
+@keyframes third-strip {
+    0% {
+        background-position: 0 72px;
+    }
+
+    100% {
+        background-position: -864px 72px;
+    }
+}
+
+@keyframes second-strip {
+    0% {
+        background-position: 0 144px;
+    }
+
+    100% {
+        background-position: -864px 144px;
+    }
+}
+
+div {
+    animation: first-strip 1s steps(12) 0s none,
+        second-strip 1s steps(12) 1s none,
+        third-strip 1s steps(12) 2s none;
     width: 72px;
     height: 72px;
     background-image: url('../img/sprite.png');
-
-
-  }
-  @keyframes second-strip {
-      0% {
-        background-position: 0 0;
-      }
-      100% {
-         background-position: -864px -144px;
-     }
-    }
-
-    div{
-      animation: second-strip 1s steps(12);
-      width: 72px;
-      height: 72px;
-      background-image: url('../img/sprite.png');
-
-
-    }
-    @keyframes third-strip {
-        0% {
-          background-position: 0 0;
-        }
-        100% {
-           background-position: -864px -216px;
-       }
-      }
-
-      div{
-        animation: third-strip 1s steps(12);
-        width: 72px;
-        height: 72px;
-        background-image: url('../img/sprite.png');
-      }
-
-      @keyframes fourth-strip {
-            0% {
-              background-position: 0 0;
-            }
-            100% {
-               background-position: -864px -288px;
-           }
-          }
-
-          div{
-            animation: fourth-strip 1s steps(12);
-            width: 72px;
-            height: 72px;
-            background-image: url('../img/sprite.png');
-
-      }
-      @keyframes fifth-strip {
-          0% {
-            background-position: 0 0;
-          }
-          100% {
-             background-position: -864px -360px;
-         }
-        }
-
-        div{
-          animation: fifth-strip 1s steps(12);
-          width: 72px;
-          height: 72px;
-          background-image: url('../img/sprite.png');}
+}
