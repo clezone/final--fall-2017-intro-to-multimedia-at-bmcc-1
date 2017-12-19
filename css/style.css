@@ -118,3 +118,31 @@ html{
         height: 600px;
         background-image: url('../img/banana-peel.png');
         }
+@keyframes ninth-strip {
+            0% {
+              background-position: 0 0;
+            }
+            100% {
+              background-position: -3600px -5400px;
+            }
+          }
+          div{
+            animation: ninth-strip 1s steps(6);
+            width: 600px;
+            height: 600px;
+            background-image: url('../img/banana-peel.png');
+          }
+@keyframes tenth-strip {
+            0% {
+              background-position: 0 0;
+            }
+            100% {
+              background-position: -3600px -6000px;
+            }
+          }
+          div{
+            animation: tenth-strip 1s steps(6);
+            width: 600px;
+            height: 600px;
+            background-image: url('../img/banana-peel.png');
+          }
