@@ -1,0 +1,58 @@
+
+@keyframes first-strip {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+       background-position: -3600px 0;
+   }
+  }
+
+  @keyframes second-strip {
+      0% {
+        background-position: 0 300px;
+      }
+      100% {
+         background-position: -3600px 300px;
+     }
+    }
+
+    @keyframes third-strip {
+        0% {
+          background-position: 0 600px;
+        }
+        100% {
+           background-position: -3600px 600px;
+       }
+      }
+
+
+
+      @keyframes fourth-strip {
+            0% {
+              background-position: 0 900px;
+            }
+            100% {
+               background-position: -3600px 900px;
+           }
+          }
+
+      @keyframes fifth-strip {
+          0% {
+            background-position: 0 1200px;
+          }
+          100% {
+             background-position: -3600px 1200px;
+         }
+        }
+
+        div{
+          animation: first-strip 2s  steps(12) 0s none,
+             second-strip 2s  steps(12) 2s none,
+             third-strip 1s steps(12) 4s none,
+             fourth-strip 1s steps(12) 5s none,
+             fifth-strip 1s steps(12) 6s none;
+          width: 300px;
+          height: 300px;
+          background-image: url('../img/sprite.png');
+        }
