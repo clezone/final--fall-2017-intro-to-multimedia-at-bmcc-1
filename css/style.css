@@ -1,0 +1,91 @@
+@keyframes strip-One {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -1800px 0;
+  }
+}
+
+@keyframes strip-Two {
+  0% {
+    background-position: 0 -150px;
+  }
+  100% {
+    background-position: -1800px -150px;
+
+  }
+}
+
+@keyframes strip-Three {
+  0% {
+    background-position: 0 -300px;
+  }
+  100% {
+    background-position: -1800px -300px;
+
+  }
+}
+
+@keyframes strip-Four {
+  0% {
+    background-position: 0 -450px;
+  }
+  100% {
+    background-position: -1800px -450px;
+
+  }
+}
+
+@keyframes strip-Five {
+  0% {
+    background-position: 0 -600px;
+  }
+  100% {
+    background-position: -1800px -600px;
+
+  }
+}
+
+@keyframes strip-Six {
+  0% {
+    background-position: 0 -750px;
+  }
+  100% {
+    background-position: -1800px -750px;
+
+  }
+}
+
+@keyframes strip-Seven {
+  0% {
+    background-position: 0 -900px;
+  }
+  100% {
+    background-position: -1800px -900px;
+
+  }
+}
+
+@keyframes strip-Eight {
+  0% {
+    background-position: 0 -1050px;
+  }
+  100% {
+    background-position: -1800px -1050px;
+
+  }
+}
+#animation-container{
+  animation: strip-One 1s steps(12) 0s none,
+    strip-Two 1s steps(12) 1s none,
+    strip-Three 1s steps(12) 2s none,
+    strip-Four 1s steps(12) 3s none,
+    strip-Five 1s steps(12) 4s none,
+    strip-Six 1s steps(12) 5s none,
+    strip-Seven 1s steps(12) 6s none,
+    strip-Eight 1s steps(12) 7s none;
+  width: 150px;
+  height: 150px;
+  background: url('../img/WelcomeAnimation.jpg');
+}
