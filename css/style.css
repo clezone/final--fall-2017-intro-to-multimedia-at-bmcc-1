@@ -2,147 +2,57 @@ html{
   background-color:#edede8;
   padding-left: 300px
 }
-@keyframes first-strip {
+@keyframes  strip-one {
       0% {
-         background-position: 0 0;
-       }
-       100% {
-          background-position: -3600px 600px;
-         }
-       }
-       div{
-           animation: first-strip 0.5s steps(6);
-           width: 600px;
-           height: 600px;
-           background-image: url('../img/banana-peel.png');
-           animation-timing-function: linear;
-          }
-@keyframes second-strip {
-   0% {
-     background-position: 0 0;
-   }
-   100% {
-      background-position: -3600px -1200px;
-    }
+      background-position: 0 0;
+}
+  100% {
+    background-position: -7200px 0px;
   }
-     div{
-      animation: "second-strip" 0.5s steps(6);
-      width: 600px;
-      height: 600px;
-      background-image: url('../img/banana-peel.png');
-    }
-
-    @keyframes third-strip {
+}
+  @keyframes strip-three{
+    0% {
+      background-position: 0 1200px;
+}
+  100% {
+    background-position: -7200px 1200px;
+  }
+}
+@keyframes strip-two{
        0% {
-         background-position: 0 0;
+         background-position: 0 1800px;
        }
        100% {
-         background-position: -3600px -1800px;
-       }
-     }
-     div{
-       animation: third-strip 0.5 steps(6);
-       width: 600px;
-       height: 600px;
-       background-image: url('../img/banana-peel.png');
-     }
-
-     @keyframes fourth-strip {
-       0% {
-         background-position: 0 0;
-       }
-       100% {
-         background-position: -3600px -2400px;
-       }
-     }
-     div{
-       animation: fourth-strip 0.5s steps(6);
-       width: 600px;
-       height: 600px;
-       background-image: url('../img/banana-peel.png');
-     }
-     @keyframes fifth-strip {
-       0% {
-         background-position: 0 0;
-       }
-       100% {
-         background-position: -3600px -3000px;
+         background-position: -7200px 1800px;
        }
      }
 
-      div{
-        animation: fifth-strip 0.5s steps(6);
-        width: 600px;
-        height: 600px;
-        background-image: url('../img/banana-peel.png');
+
+     @keyframes strip-five{
+       0% {
+         background-position: 0 2400px;
+       }
+       100% {
+         background-position: -7200px 2400px;
+       }
+     }
+
+     @keyframes strip-four{
+       0% {
+         background-position: 0 3000px;
+       }
+       100% {
+         background-position: -7200px 3000px;
+       }
+}
+
+div{ animation:
+    strip-one 1s steps(12)0s ,none,
+    strip-two 1s  steps(12)1s ,none,
+    strip-three 1s steps(12) 2s ,none,
+    strip-four 1s  steps(12) 3s,none,
+    strip-five 1s steps(12) 4s,none;
+    width: 600px;
+    height: 600px;
+    background-image: url('../img/banana.png');
       }
- @keyframes sixth-strip {
-   0% {
-     background-position: 0 0;
-   }
-   100% {
-     background-position: -3600px -3600px;
-   }
- }
-     div{
-       animation: sixth-strip 0.5s steps(6);
-       width: 600px;
-       height: 600px;
-       background-image: url('../img/banana-peel.png');
-        }
- @keyframes seventh-strip {
-           0% {
-             background-position: 0 0;
-           }
-           100% {
-             background-position: -3600px -4200px;
-           }
-         }
-      div{
-        animation: seventh-strip 0.5s steps(6);
-        width: 600px;
-        height: 600px;
-        background-image: url('../img/banana-peel.png');
-        }
-@keyframes eighth-strip {
-          0% {
-          background-position: 0 0;
-        }
-          100% {
-          background-position: -3600px -4800px;
-        }
-  }
-         div{
-        animation: eighth-strip 0.5s steps(6);
-        width: 600px;
-        height: 600px;
-        background-image: url('../img/banana-peel.png');
-        }
-@keyframes ninth-strip {
-            0% {
-              background-position: 0 0;
-            }
-            100% {
-              background-position: -3600px -5400px;
-            }
-          }
-          div{
-            animation: ninth-strip 0.5s steps(6);
-            width: 600px;
-            height: 600px;
-            background-image: url('../img/banana-peel.png');
-          }
-@keyframes tenth-strip {
-            0% {
-              background-position: 0 0;
-            }
-            100% {
-              background-position: -3600px -6000px;
-            }
-          }
-          div{
-            animation: tenth-strip 0.5s steps(6);
-            width: 600px;
-            height: 600px;
-            background-image: url('../img/banana-peel.png');
-          }
