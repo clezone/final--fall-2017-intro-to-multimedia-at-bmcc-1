@@ -1,0 +1,286 @@
+@@keyframe first-strip {
+  0%{
+    background-position: 0 0;
+  }
+  100%{
+    background-position: -2000 0;
+  }
+
+}
+
+
+div{
+  background-image: url(strip 1.png);
+  animation: first-strip 1s steps(3);
+  width:1500px;
+  height: 2000px;
+
+}
+
+
+@@keyframes second-strip {
+  0%{
+    background-position: 0 0;
+  }
+  100%{
+    background-position: -2000 0;
+  }
+}
+
+div{
+background-image: url(strip 2.png);
+animation: second-strip 1s steps(3);
+width: 1500px;
+height: 2000px;
+
+
+}
+
+
+@@keyframes third-strip {
+  0%{
+    background-position: 0 0;
+  }
+  100%{
+    background-position: -2000 0;
+  }
+}
+
+
+
+div{
+  background-image: url(strip 3.png);
+  animation: third-strips 1s steps(3);
+  width: 1500px;
+  height: 2000px;
+
+}
+
+
+
+@@keyframes fourth-strip {
+  0%{
+    background-position: 0 0;
+  }
+  100%{
+    background-position: -2000 0;
+  }
+}
+
+
+div{
+  background-image: url(strip 4.png);
+  animation: fourth-strip 1s steps(3);
+  width: 1500px;
+  height: 2000px;
+}
+
+
+
+
+
+@@keyframes fith-strip {
+  0%{
+    background-position: 0 0;
+  }
+  100%{
+    background-position: -2000 0;
+  }
+}
+
+
+
+div{
+  background-image: url(strip 5.png);
+  animation: fith-strip 1s steps(3);
+  width: 1500px;
+  height: 2000px;
+}
+
+
+@@keyframes six-strip {
+  0%{
+    background-position: 0 0;
+  }
+  100${
+    background-position: -2000 0;
+  }
+}
+
+
+
+div{
+  background-image: url(strip 6.png);
+  animation: six-strip 1s steps(3);
+  width: 1500px;
+  height: 2000px;
+}
+
+
+@@keyframes seven-strip {
+  0%{
+    background-position: 0 0;
+  }
+  100${
+    background-position: -2000 0;
+  }
+}
+
+
+
+div{
+  background-image: url(strip 7.png);
+  animation: six-strip 1s steps(3);
+  width: 1500px;
+  height: 2000px;
+}
+
+
+@@keyframes eight-strip {
+  0%{
+    background-position: 0 0;
+  }
+  100${
+    background-position: -2000 0;
+  }
+}
+
+
+
+div{
+  background-image: url(strip 8.png);
+  animation: six-strip 1s steps(3);
+  width: 1500px;
+  height: 2000px;
+}
+
+
+@@keyframes nine-strip {
+  0%{
+    background-position: 0 0;
+  }
+  100${
+    background-position: -2000 0;
+  }
+}
+
+
+
+div{
+  background-image: url(strip 9.png);
+  animation: six-strip 1s steps(3);
+  width: 1500px;
+  height: 2000px;
+}
+
+
+
+@@keyframes ten-strip {
+  0%{
+    background-position: 0 0;
+  }
+  100${
+    background-position: -2000 0;
+  }
+}
+
+
+
+div{
+  background-image: url(strip 10.png);
+  animation: six-strip 1s steps(3);
+  width: 1500px;
+  height: 2000px;
+}
+
+
+@@keyframes eleven-strip {
+  0%{
+    background-position: 0 0;
+  }
+  100${
+    background-position: -2000 0;
+  }
+}
+
+
+
+div{
+  background-image: url(strip 11.png);
+  animation: six-strip 1s steps(3);
+  width: 1500px;
+  height: 2000px;
+}
+
+
+@@keyframes twelve-strip {
+  0%{
+    background-position: 0 0;
+  }
+  100${
+    background-position: -2000 0;
+  }
+}
+
+
+
+div{
+  background-image: url(strip 12.png);
+  animation: six-strip 1s steps(3);
+  width: 1500px;
+  height: 2000px;
+}
+
+@@keyframes thirteen-strip {
+  0%{
+    background-position: 0 0;
+  }
+  100${
+    background-position: -2000 0;
+  }
+}
+
+
+
+div{
+  background-image: url(strip 13.png);
+  animation: six-strip 1s steps(3);
+  width: 1500px;
+  height: 2000px;
+}
+
+@@keyframes fourteen-strip {
+  0%{
+    background-position: 0 0;
+  }
+  100${
+    background-position: -2000 0;
+  }
+}
+
+
+
+div{
+  background-image: url(strip 14.png);
+  animation: six-strip 1s steps(3);
+  width: 1500px;
+  height: 2000px;
+}
+
+@@keyframes fithteen-strip {
+  0%{
+    background-position: 0 0;
+  }
+  100${
+    background-position: -2000 0;
+  }
+}
+
+
+
+div{
+  background-image: url(strip 15.png);
+  animation: six-strip 1s steps(3);
+  width: 1500px;
+  height: 2000px;
+}
