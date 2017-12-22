@@ -1,0 +1,58 @@
+html{
+  background-color:#edede8;
+  padding-left: 300px
+}
+@keyframes  strip-one {
+      0% {
+      background-position: 0 0;
+}
+  100% {
+    background-position: -7200px 0px;
+  }
+}
+  @keyframes strip-three{
+    0% {
+      background-position: 0 1200px;
+}
+  100% {
+    background-position: -7200px 1200px;
+  }
+}
+@keyframes strip-two{
+       0% {
+         background-position: 0 1800px;
+       }
+       100% {
+         background-position: -7200px 1800px;
+       }
+     }
+
+
+     @keyframes strip-five{
+       0% {
+         background-position: 0 2400px;
+       }
+       100% {
+         background-position: -7200px 2400px;
+       }
+     }
+
+     @keyframes strip-four{
+       0% {
+         background-position: 0 3000px;
+       }
+       100% {
+         background-position: -7200px 3000px;
+       }
+}
+
+div{ animation:
+    strip-one 1s steps(12)0s ,none,
+    strip-two 1s  steps(12)1s ,none,
+    strip-three 1s steps(12) 2s ,none,
+    strip-four 1s  steps(12) 3s,none,
+    strip-five 1s steps(12) 4s,none;
+    width: 600px;
+    height: 600px;
+    background-image: url('../img/banana.png');
+      }
