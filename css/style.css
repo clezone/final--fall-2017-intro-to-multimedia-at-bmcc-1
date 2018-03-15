@@ -1,0 +1,39 @@
+
+
+
+@keyframes first-strip{ 
+
+
+ 
+ 0% { 
+    background-position: 0 0;
+    }  
+
+50% { 
+
+  background-position: -300px 0; 
+} 
+@keyframes second-strip{
+
+
+50%{
+
+	background-position: 0,70px; 
+	}
+100%{
+
+	background-position: -400px,70px
+}
+
+   div { 
+
+
+   animation:first-strip 10s steps(5); 
+
+   width: 400px; 
+   height: 400px; 
+background-image: url('../img/the dresses.jpeg'); 
+
+
+ 
+
